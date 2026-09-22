@@ -438,6 +438,42 @@ Keep field labels concise and place help text or formatting guidance in supporti
 
 Prevent repeated activation while a request is processing. Give immediate feedback that the action has been received, then temporarily disable or otherwise guard the initiating control until processing completes so users cannot accidentally submit the same request twice.
 
+### Keep primary form actions enabled
+
+Keep Add, Save or Submit enabled wherever possible. If users select the action before the form is valid, validate the form, identify the affected fields and explain what must be corrected before submission can continue.
+
+### Only disable submission when impossible
+
+Disable Add, Save or Submit only when submission is genuinely unavailable for reasons users cannot resolve by correcting the form, such as while a request is processing. Otherwise, keep the action enabled and use validation to explain what needs attention.
+
+### Make Back and Cancel behave consistently
+
+When Back and Cancel both leave a form with unsaved changes, they should follow the same exit behaviour and preservation rules. If leaving would discard changes, use the same confirmation or recovery treatment for both.
+
+### Separate destructive footer actions
+
+Place destructive actions such as Delete away from primary and secondary completion actions in page, dialog or drawer footers. Use spatial separation to reduce accidental activation and make the difference in consequence immediately clear.
+
+### Match form presentation to complexity
+
+Present low-complexity forms in dialogs, medium-complexity forms in drawers, and high-complexity forms on full pages so the available space, focus and navigation reflect the amount of information and interaction required.
+
+### Match form layout to complexity
+
+Use a single-column layout for low-complexity dialog forms and medium-complexity drawer forms. High-complexity full-page forms may use a single reading path layout where this improves structure and scannability.
+
+### Use progressive form layouts in chat
+
+Forms presented in chat must always use a single-column layout. Longer forms should behave like a wizard, surfacing one section at a time on demand to reduce cognitive load and guide users through completion.
+
+### Let users focus on mandatory fields
+
+For complex forms, it is recommended to provide a header toggle labelled “Mandatory fields only” that hides optional fields, reduces distractions and lets users focus on the information required to complete the form more efficiently.
+
+### Support repetitive form entry
+
+For forms that users may submit repeatedly, provide a footer option labelled “Add another”. When selected, this clears the form after submission so it is immediately ready for the next entry, reducing repeated navigation and effort.
+
 ---
 
 ## 07. Icons and iconography
