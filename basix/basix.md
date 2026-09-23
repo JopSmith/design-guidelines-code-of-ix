@@ -440,11 +440,7 @@ Prevent repeated activation while a request is processing. Give immediate feedba
 
 ### Keep primary form actions enabled
 
-Keep Add, Save or Submit enabled wherever possible. If users select the action before the form is valid, validate the form, identify the affected fields and explain what must be corrected before submission can continue.
-
-### Only disable submission when impossible
-
-Disable Add, Save or Submit only when submission is genuinely unavailable for reasons users cannot resolve by correcting the form, such as while a request is processing. Otherwise, keep the action enabled and use validation to explain what needs attention.
+Keep primary form actions such as Add or Save enabled by default. Only disable them temporarily when an action is already processing, loading or otherwise cannot safely be repeated; use validation and clear feedback to handle incomplete or invalid input.
 
 ### Make Back and Cancel behave consistently
 
@@ -538,9 +534,9 @@ Keep pages to a consistent standard width to create predictable layouts, improve
 
 Use concentric border radii when nesting to create balanced, visually aligned corners. Set the nested element’s radius to the parent radius minus its padding so the inner and outer curves follow the same centre point.
 
-### Group content with spacing
+### Use spacing to create hierarchy
 
-Use spacing to group related content and separate distinct sections before introducing divider lines. Thoughtful spacing creates clearer visual relationships, reduces unnecessary visual noise and helps users understand the structure and hierarchy of the page.
+Use whitespace intentionally to group related content, separate distinct sections and establish visual hierarchy before adding borders, containers or colour. Use tighter spacing to show relationships and greater spacing to signal separation.
 
 ### Use shadows to communicate depth
 
@@ -577,10 +573,6 @@ Align related content, controls and containers to shared grid lines. Consistent 
 ### Avoid unnecessary nested cards
 
 Don’t place cards inside cards unless the nested container represents a genuinely distinct grouping or hierarchy. Excessive nesting adds visual noise and can make relationships between content harder to understand.
-
-### Use whitespace to establish hierarchy
-
-Use whitespace to separate sections and communicate relationships before adding borders, containers or colour. Tighter spacing connects related content, while greater spacing signals separation, creating clearer hierarchy with less visual noise and fewer decorative elements.
 
 ---
 
@@ -698,9 +690,9 @@ Display dates in tables using the DD/MM/YYYY format to keep them consistent, pre
 
 Left-align table cell content by default and right-align numerical values, such as amounts, totals and percentages. Consistent alignment improves scannability, makes values easier to compare and helps users interpret tabular information more efficiently.
 
-### Use badges only for status or priority
+### Use badges sparingly for status or priority
 
-Use badges in tables only to communicate status or priority, applying colour where severity needs to be distinguished. Present categories and other descriptive values as standard text to avoid unnecessary visual emphasis.
+Use badges sparingly, and only to highlight status or priority where quick recognition matters. Avoid using badges for general metadata or decorative emphasis, and when both status and priority are shown together, use a badge for status and plain text for priority.
 
 ### Keep table badges icon-free
 
@@ -813,10 +805,6 @@ Hide pagination controls, including rows per page and previous or next buttons, 
 ### Top-align multi-line rows
 
 When content in any table cell wraps onto multiple lines, align the content in all cells within that row to the top. This keeps related values visually aligned and makes longer rows easier to scan and understand.
-
-### Use badges sparingly
-
-Reserve badges for values that need strong visual emphasis, such as status or priority. Do not use them for routine attributes like categories or departments. If both status and priority are shown, use a badge for status and plain text for priority.
 
 ### Keep priority and status distinct
 
