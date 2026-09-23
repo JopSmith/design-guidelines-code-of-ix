@@ -1,4 +1,4 @@
-# Design TactIX
+# Design Tactics
 
 **Date:** 10/09/2026  
 **Version:** 1.0  
@@ -6,7 +6,7 @@
 
 ## Introduction
 
-TactIX defines the practical techniques and patterns used to apply Ethics principles and Basics standards effectively.
+Tactics defines the practical techniques and patterns used to apply Ethics principles and Basics standards effectively.
 
 These guidelines provide detailed approaches for solving common design problems, including when to use a pattern, how to apply it and what to avoid.
 

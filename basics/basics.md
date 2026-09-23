@@ -10,7 +10,7 @@ Basics defines the foundational standards that every intelligent experience shou
 
 These guidelines turn broader principles into clear, practical rules for creating consistent, accessible and usable experiences across products, platforms and contexts.
 
-They provide a shared baseline for quality and inform the more detailed techniques in TactIX.
+They provide a shared baseline for quality and inform the more detailed techniques in Tactics.
 
 ### Contents
 

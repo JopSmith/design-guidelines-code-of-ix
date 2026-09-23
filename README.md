@@ -12,7 +12,7 @@ It's organised into three complementary layers:
 
 - **Ethics** - The principles that define what responsible IX should stand for.
 - **Basics** - The foundational standards every IX experience should meet.
-- **TactIX** - The practical techniques used to apply those principles and standards effectively.
+- **Tactics** - The practical techniques used to apply those principles and standards effectively.
 
 ## Ethics
 
@@ -44,7 +44,7 @@ The essential foundations, standards and rules that every experience should foll
 
 **Full guidelines:** [`basics/basics.md`](basics/basics.md)
 
-## TactIX
+## Tactics
 
 Practical techniques and recommended approaches for applying the code effectively, including visual examples of key patterns and layouts.
 
@@ -57,4 +57,4 @@ Practical techniques and recommended approaches for applying the code effectivel
 - Use examples and contextual guidance to help users complete unfamiliar tasks.
 - Test designs with realistic content, data and edge cases before release.
 
-**Full guidelines:** [`tactix/tactix.md`](tactix/tactix.md)
+**Full guidelines:** [`tactics/tactics.md`](tactics/tactics.md)
