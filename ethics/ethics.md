@@ -1,4 +1,4 @@
-# Design EthIX
+# Design Ethics
 
 **Date:** 11/09/2026  
 **Version:** 1.0  
@@ -6,7 +6,7 @@
 
 ## Introduction
 
-EthIX defines the principles that guide responsible, inclusive and trustworthy intelligent experiences.
+Ethics defines the principles that guide responsible, inclusive and trustworthy intelligent experiences.
 
 These principles help teams make better judgements about how experiences should behave, particularly where technology may affect people’s rights, choices, privacy, safety or wellbeing.
 

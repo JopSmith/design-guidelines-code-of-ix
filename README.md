@@ -10,11 +10,11 @@ A shared set of principles, standards and practical guidance for creating consis
 
 It's organised into three complementary layers:
 
-- **EthIX** - The principles that define what responsible IX should stand for.
+- **Ethics** - The principles that define what responsible IX should stand for.
 - **Basics** - The foundational standards every IX experience should meet.
 - **TactIX** - The practical techniques used to apply those principles and standards effectively.
 
-## EthIX
+## Ethics
 
 The values and principles that guide responsible, inclusive and trustworthy experiences.
 
@@ -27,7 +27,7 @@ The values and principles that guide responsible, inclusive and trustworthy expe
 - Avoid patterns that manipulate, mislead or place undue pressure on users.
 - Consider how different users may be affected by bias or unintended outcomes.
 
-**Full guidelines:** [`ethix/ethix.md`](ethix/ethix.md)
+**Full guidelines:** [`ethics/ethics.md`](ethics/ethics.md)
 
 ## Basics
 
