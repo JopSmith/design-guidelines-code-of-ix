@@ -14,7 +14,7 @@ Use a table when users need to scan, compare or act on structured data.
 - Show only the columns users need by default.
 - Keep sorting, filtering and row actions predictable.
 
-For full table guidance, always refer to [Tables and data in Design BasIX](../../basix/basix.md#11-tables-and-data).
+For full table guidance, always refer to [Tables and data in Design Basics](../../basics/basics.md#11-tables-and-data).
 
 ## Recommended patterns
 

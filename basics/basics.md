@@ -1,4 +1,4 @@
-# Design BasIX
+# Design Basics
 
 **Date:** 10/09/2026  
 **Version:** 1.0  
@@ -6,7 +6,7 @@
 
 ## Introduction
 
-BasIX defines the foundational standards that every intelligent experience should meet.
+Basics defines the foundational standards that every intelligent experience should meet.
 
 These guidelines turn broader principles into clear, practical rules for creating consistent, accessible and usable experiences across products, platforms and contexts.
 

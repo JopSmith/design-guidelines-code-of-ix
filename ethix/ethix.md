@@ -10,7 +10,7 @@ EthIX defines the principles that guide responsible, inclusive and trustworthy i
 
 These principles help teams make better judgements about how experiences should behave, particularly where technology may affect people’s rights, choices, privacy, safety or wellbeing.
 
-They provide the ethical foundation for the standards in BasIX and the practical techniques in TactIX.
+They provide the ethical foundation for the standards in Basics and the practical techniques in TactIX.
 
 ---
 

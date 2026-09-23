@@ -11,7 +11,7 @@ A shared set of principles, standards and practical guidance for creating consis
 It's organised into three complementary layers:
 
 - **EthIX** - The principles that define what responsible IX should stand for.
-- **BasIX** - The foundational standards every IX experience should meet.
+- **Basics** - The foundational standards every IX experience should meet.
 - **TactIX** - The practical techniques used to apply those principles and standards effectively.
 
 ## EthIX
@@ -29,7 +29,7 @@ The values and principles that guide responsible, inclusive and trustworthy expe
 
 **Full guidelines:** [`ethix/ethix.md`](ethix/ethix.md)
 
-## BasIX
+## Basics
 
 The essential foundations, standards and rules that every experience should follow.
 
@@ -42,7 +42,7 @@ The essential foundations, standards and rules that every experience should foll
 - Provide appropriate feedback for actions, errors and changes in status.
 - Design layouts and interactions to work across supported screen sizes and devices.
 
-**Full guidelines:** [`basix/basix.md`](basix/basix.md)
+**Full guidelines:** [`basics/basics.md`](basics/basics.md)
 
 ## TactIX
 
