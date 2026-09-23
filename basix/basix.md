@@ -128,7 +128,7 @@ Use a destructive-coloured button for actions with negative or irreversible cons
 
 ### Don’t use Close to discard changes
 
-Use Close to dismiss dialogs, drawers, screens or applications without implying data loss. When a form contains unsaved changes, use an explicit discard or cancel action so users understand the consequence before leaving.
+Use Close to dismiss dialogs, drawers, screens or applications without validation or implying data loss. When a form contains unsaved changes, use an explicit discard or cancel action so users understand the consequence before leaving.
 
 ### Use Cancel to discard form changes
 
@@ -473,6 +473,18 @@ For complex forms, it is recommended to provide a header toggle labelled “Mand
 ### Support repetitive form entry
 
 For forms that users may submit repeatedly, provide a footer option labelled “Add another”. When selected, this clears the form after submission so it is immediately ready for the next entry, reducing repeated navigation and effort.
+
+### Place destructive actions in edit views
+
+Make permanent deletion available from a record’s edit screen rather than the main records list. This reduces accidental deletion and keeps destructive actions contextual. However, soft-delete actions, such as archive or deactivate, may be available from list views.
+
+### Use a danger zone for high-risk actions
+
+Group highly destructive or irreversible actions in a clearly separated danger zone, away from routine settings. For additional protection, require administrators to enter their password or a confirmation keyword before the action can proceed.
+
+### Always confirm destructive deletions
+
+Require users to explicitly confirm before permanently deleting a record. Clearly identify what will be deleted and the consequences of the action so users can verify their intent before proceeding.
 
 ---
 
