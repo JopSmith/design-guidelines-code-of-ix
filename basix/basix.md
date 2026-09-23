@@ -320,7 +320,7 @@ Confirm successful actions briefly and clearly, stating what happened without re
 
 ### Use switches for immediate settings
 
-Use switches for settings that take effect immediately when turned on or off. Their clear on/off state helps users understand the outcome of their action and distinguishes them from checkboxes, which support selection, or buttons, which trigger actions.
+Use switches for settings that take effect immediately when turned on or off, e.g. enabled/disabled. Their clear on/off state helps users understand the outcome of their action and distinguishes them from checkboxes, which support selection, or buttons, which trigger actions.
 
 ### Give filters a clear default state
 
@@ -668,7 +668,7 @@ Place row-level actions in the final table column to create a consistent, predic
 
 ### Use icon-only buttons for table actions
 
-Use icon-only buttons for common row-level table actions to keep the interface compact and reduce visual clutter. Only use familiar, unambiguous icons and provide accessible labels or tooltips where needed.
+Use icon-only ghost buttons for common row-level table actions to keep the interface compact and reduce visual clutter. Only use familiar, unambiguous icons and provide accessible labels or tooltips where needed.
 
 ### Use multi-select for batch actions
 
@@ -753,3 +753,75 @@ Use a maximum width of 1024px for smaller, less data-heavy tables. Use the full 
 ### Adapt tables for mobile
 
 On mobile, simplify complex tables by changing their structure where needed. Hide or progressively disclose secondary columns, or use an alternative layout such as stacked cards when a conventional table would be difficult to scan or use.
+
+### Wrap column headers
+
+Wrap column header text onto multiple lines when it is wider than the available column width. Do not truncate headers, as users need the full label to understand the data and distinguish between similar columns.
+
+### Keep column headers concise
+
+Use short, descriptive column header labels, ideally one or two words. Avoid unnecessary wording so headers are easy to scan, require less space and reduce the likelihood of wrapping.
+
+### Limit row actions
+
+Show no more than two actions directly within each table row. If additional actions are required, use a single overflow button and place the remaining actions in a dropdown menu.
+
+### Add new entries first
+
+Add newly created table entries to the top of the list so they are immediately visible after creation. This helps users confirm that their action was successful without needing to search, sort or navigate through the table.
+
+### Size columns appropriately
+
+Size table columns according to the expected length and type of their content. Give longer values sufficient space while keeping short or predictable values compact, helping the table remain readable, balanced and easy to scan.
+
+### Use zebra striping
+
+Use alternating row backgrounds in data-heavy tables to help users visually track content across rows. Ensure the contrast between alternating rows is subtle but distinguishable and does not reduce text or control accessibility.
+
+### Hide controls for empty tables
+
+When a table contains no data on first load, hide search, filters and pagination controls until entries are available. This avoids presenting controls that cannot perform a useful action and keeps the empty state focused.
+
+### Label cells with no data
+
+Use explicit text such as “N/A” or “No data” when a table cell has no value. Do not leave cells blank, as screen reader users may be unable to distinguish between missing data, a zero value or a rendering error.
+
+### Avoid ambiguous row action icons
+
+Use familiar, recognised icons for common row actions, such as a pencil for edit and a bin for delete. Avoid unconventional or ambiguous icons, and always provide accessible labels or tooltips so each action is clearly understood.
+
+### Show units in column headers
+
+Show measurement units in the column header when every value uses the same unit, rather than repeating them in each cell, e.g. "£". This reduces visual noise, saves space and makes numerical data easier to scan and compare.
+
+### Hide unnecessary pagination
+
+Hide pagination controls, including rows per page and previous or next buttons, when all table rows fit on a single page. Only show pagination when users can meaningfully navigate between multiple pages of data.
+
+### Top-align multi-line rows
+
+When content in any table cell wraps onto multiple lines, align the content in all cells within that row to the top. This keeps related values visually aligned and makes longer rows easier to scan and understand.
+
+### Use badges sparingly
+
+Reserve badges for values that need strong visual emphasis, such as status or priority. Do not use them for routine attributes like categories or departments. If both status and priority are shown, use a badge for status and plain text for priority.
+
+### Keep priority and status distinct
+
+Do not use priority and status interchangeably. Priority indicates how important or urgent an item is, while status describes its current state or progress. Treat them as separate attributes with distinct labels, values and visual treatments.
+
+### Use inline editing for simple values
+
+Allow simple, frequently changed table values, such as status or assignment, to be edited directly within the cell. Use appropriate controls and provide clear feedback so users can make quick changes without opening a separate page or dialog.
+
+### Freeze the first column on mobile
+
+When a table must scroll horizontally on mobile, keep the first column fixed so users retain the row context while viewing additional columns. Ensure the frozen column remains clearly separated from scrolling content and does not obscure important data.
+
+### Prefer infinite scrolling on mobile
+
+Use infinite scrolling for long lists on mobile where users are primarily browsing content sequentially. It provides a more natural, continuous touch experience than pagination controls, but preserve position and provide clear loading and end-of-list feedback.
+
+### Avoid conflicting row links
+
+Do not make an entire table row selectable when individual cells already contain links or other interactive controls. Multiple overlapping link targets create ambiguous interaction behaviour, can cause accessibility issues and are semantically incorrect.
