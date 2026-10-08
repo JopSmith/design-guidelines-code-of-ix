@@ -358,6 +358,14 @@ Do not use placeholder text for essential labels or instructions because it disa
 
 Place form actions directly beneath the form to create a clear completion point. This follows the natural flow of entering information before taking action and keeps form layouts consistent and easy to scan.
 
+### Align form actions responsively
+
+Right-align form action buttons on desktop to create a consistent completion point at the end of the form. On mobile, make form action buttons full width so they are easier to reach, tap and scan within narrow layouts.
+
+### Pair submit actions with Cancel
+
+Always place a Cancel button immediately to the left of a form’s primary submit action, such as Save, Add or Send. This gives users a clear way to abandon changes and keeps form action order consistent and predictable.
+
 ### Use auto-save for lightweight changes
 
 Use auto-save for low-risk changes such as settings, preferences, profile information and drafts. Saving changes as they happen reduces unnecessary actions, supports faster task completion and helps users avoid losing work.
