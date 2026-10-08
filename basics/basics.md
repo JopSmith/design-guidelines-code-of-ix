@@ -178,6 +178,10 @@ When an action can safely be reversed, consider providing a temporary Undo optio
 
 Don’t ask users to confirm routine, low-risk actions, as unnecessary prompts interrupt their flow and slow down common tasks. Reserve confirmation for destructive, irreversible or consequential actions where accidental activation would have a meaningful impact.
 
+### Keep button labels concise
+
+Keep button labels to one (preferrably) or two words wherever possible, using clear action-oriented language such as Add, Save or View, not Add user, Save changes or View details. Use longer labels only when additional wording is necessary to make the action or outcome unambiguous.
+
 ---
 
 ## 03. Content and language
