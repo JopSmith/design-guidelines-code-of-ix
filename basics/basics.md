@@ -180,7 +180,7 @@ Don’t ask users to confirm routine, low-risk actions, as unnecessary prompts i
 
 ### Keep button labels concise
 
-Keep button labels to one (preferrably) or two words wherever possible, using clear action-oriented language such as Add, Save or View, not Add user, Save changes or View details. Use longer labels only when additional wording is necessary to make the action or outcome unambiguous.
+Keep button labels to one word wherever possible, using clear actions such as Add, Save or View. Avoid repeating context already provided by the page or form. Use a second word only when the action would otherwise be genuinely ambiguous.
 
 ---
 
