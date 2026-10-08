@@ -590,6 +590,10 @@ Align related content, controls and containers to shared grid lines. Consistent 
 
 Don’t place cards inside cards unless the nested container represents a genuinely distinct grouping or hierarchy. Excessive nesting adds visual noise and can make relationships between content harder to understand.
 
+### Use default component sizes
+
+Use the default size of components wherever possible to maintain consistency across the interface. Only use smaller variants when space is genuinely constrained, or larger variants when additional emphasis or prominence is intentionally required.
+
 ---
 
 ## 10. Navigation and disclosure
