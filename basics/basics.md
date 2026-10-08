@@ -40,7 +40,7 @@ Avoid using colour as the only way to distinguish states, groups or categories. 
 
 ### Use accessible touch targets
 
-Give buttons, links and interactive controls a touch target of at least 44 × 44px. Adequate target sizes make controls easier to select accurately and support users with limited dexterity, motor impairments or touch-based devices.
+Give buttons, links and interactive controls a touch target of at least 44 × 44px on mobile devices. Adequate target sizes make controls easier to select accurately and support users with limited dexterity, motor impairments or touch-based devices.
 
 ### Maintain contrast for muted text
 
