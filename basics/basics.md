@@ -278,6 +278,10 @@ Use a solid backdrop behind modals instead of background blur. Solid backdrops r
 
 Use dialogs, drawers or expandable regions for supporting tasks when users benefit from retaining page context. Use a new page when the task requires substantial space, navigation or independent focus.
 
+### Don’t obscure required context
+
+Avoid placing dialogs, drawers or other overlays over information users need to reference while completing a task. If important context must remain visible, reposition or resize the overlay, use a side drawer, or move the task to a dedicated page.
+
 ---
 
 ## 05. Feedback and system status
@@ -364,11 +368,11 @@ Place form actions directly beneath the form to create a clear completion point.
 
 ### Align form actions responsively
 
-Right-align form action buttons on desktop to create a consistent completion point at the end of the form. On mobile, make form action buttons full width so they are easier to reach, tap and scan within narrow layouts.
+Right-align form footer buttons by default to create a consistent completion point at the end of the form. However, on smaller devices, make the buttons full width so they are easier to reach, tap and scan within narrow layouts. For example ← space → Cancel | Save by default and Cancel | Save on mobile
 
 ### Pair submit actions with Cancel
 
-Always place a Cancel button immediately to the left of a form’s primary submit action, such as Save, Add or Send. This gives users a clear way to abandon changes and keeps form action order consistent and predictable.
+Always place a Cancel button immediately to the left of a form’s primary submit action, such as Add or Save. This gives users a clear way to abandon changes and keeps form action order consistent and predictable. For example ← space → Cancel | Save
 
 ### Use auto-save for lightweight changes
 
@@ -460,7 +464,7 @@ When Back and Cancel both leave a form with unsaved changes, they should follow 
 
 ### Separate destructive footer actions
 
-Place destructive actions such as Delete away from primary and secondary completion actions in page, dialog or drawer footers. Use spatial separation to reduce accidental activation and make the difference in consequence immediately clear.
+Place destructive actions such as Delete separately on the far left of the form footer, away from the standard Cancel and submit action group on the right. This separation reduces accidental activation and makes the difference in consequence immediately clear. For example Delete ← space → Cancel | Save
 
 ### Match form presentation to complexity
 
