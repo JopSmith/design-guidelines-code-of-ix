@@ -219,6 +219,29 @@ Don’t ask users to confirm routine, low-risk actions, as unnecessary prompts i
 
 Keep button labels to one word wherever possible, using clear actions such as Add, Save or View. Avoid repeating context already provided by the page or form. Use a second word only when the action would otherwise be genuinely ambiguous.
 
+### Size buttons to fit their labels
+<small>IX-BASIC-ACTION-022</small>
+
+Buttons should fit their content by default, using standard padding. Avoid fixed widths or unnecessary stretching. Use full-width buttons only when required by the layout or responsive context, such as mobile forms.
+
+### Use prescribed icons for actions
+<small>IX-BASIC-ACTION-023</small>
+
+Use the designated icon for common actions to maintain consistency across the product. Do not substitute alternative icons where a standard has been defined. Only introduce new icons when no existing standard appropriately represents the action.
+
+| Action | Required icon (Phosphor) |
+|---|---|
+| Add / Create | `Plus` |
+| Edit | `PencilSimple` |
+| Delete | `Trash` |
+| Save | `CheckCircle` |
+| Search | `MagnifyingGlass` |
+| Download | `DownloadSimple` |
+| Upload | `UploadSimple` |
+| Refresh | `ArrowsClockwise` |
+| More actions | `DotsThree` |
+| Close | `X` |
+
 ---
 
 ## 03. Content and language
