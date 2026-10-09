@@ -1,4 +1,4 @@
-# Code of IX
+# IX Guidelines
 
 **Date:** 08/10/2026  
 **Version:** 1.0  
