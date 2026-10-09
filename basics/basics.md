@@ -523,10 +523,33 @@ Arrange form fields in a single column wherever possible. A linear layout create
 
 Present read-only information as plain text rather than using default or disabled field styling. This clearly distinguishes fixed information from editable or temporarily unavailable controls and reduces ambiguity about whether users can interact with it or not.
 
-### Place related fields together
+### Pair related form fields horizontally
 <small>IX-BASIC-FORM-022</small>
 
 It’s acceptable to place closely related fields next to each other when it improves comprehension and completion, such as first name and last name. However, keep the relationship clear and avoid multi-column layouts for fields that are not naturally connected.
+
+| Category | Field 1 | Field 2 |
+|---|---|---|
+| Personal details | First name | Last name |
+| Personal details | Preferred name | Pronouns |
+| Contact details | Country code | Phone number |
+| Address | City / Town | County / State |
+| Address | County / State | Postcode / ZIP code |
+| Dates | Start date | End date |
+| Dates | From date | To date |
+| Dates | Issue date | Expiry date |
+| Times | Start time | End time |
+| Times | Hours | Minutes |
+| Measurements | Height | Weight |
+| Measurements | Width | Height |
+| Measurements | Minimum value | Maximum value |
+| Financial | Amount | Currency |
+| Financial | Price | Quantity |
+| Financial | Sort code | Account number |
+| Employment | Job title | Department |
+| Employment | Start date | End date |
+| Scheduling | Date | Time |
+| Scheduling | Frequency | Interval |
 
 ### Use Selects for longer option lists
 <small>IX-BASIC-FORM-023</small>
@@ -632,6 +655,11 @@ Group highly destructive or irreversible actions in a clearly separated danger z
 <small>IX-BASIC-FORM-043</small>
 
 Require users to explicitly confirm before permanently deleting a record. Clearly identify what will be deleted and the consequences of the action so users can verify their intent before proceeding.
+
+### Group related form fields
+<small>IX-BASIC-FORM-044</small>
+
+Group fields that belong to the same logical section, such as address details or contact information. Use spacing and clear section labels where appropriate to communicate relationships, while maintaining a consistent reading order and avoiding unnecessary visual containers.
 
 ---
 
