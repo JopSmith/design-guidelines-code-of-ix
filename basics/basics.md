@@ -30,7 +30,8 @@ They provide a shared baseline for quality and inform the more detailed techniqu
 
 ## 01. Accessibility
 
-### IX-BASIC-A11Y-001 - Label icons that may be unclear
+### Label icons that may be unclear
+<small>IX-BASIC-A11Y-001<small>
 
 Use icon-only controls only when the icon’s meaning is familiar and unambiguous, such as a pencil for Edit. Pair less familiar icons with clear text labels, and always provide an accessible name for assistive technology
 
