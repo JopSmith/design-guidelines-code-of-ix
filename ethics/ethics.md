@@ -1,6 +1,6 @@
 # Design Ethics
 
-**Date:** 11/09/2026  
+**Date:** 09/10/2026  
 **Version:** 1.0  
 **Author:** Jonathan Smith
 
