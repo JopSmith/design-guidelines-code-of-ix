@@ -1,4 +1,5 @@
 import sys, json, subprocess, re, os
+from datetime import date
 
 data = json.load(sys.stdin)
 cmd = data.get('tool_input', {}).get('command', '')
@@ -6,7 +7,7 @@ cmd = data.get('tool_input', {}).get('command', '')
 if not (re.search(r'git push.*(?:master|main)', cmd) or cmd.strip() == 'git push'):
     sys.exit(0)
 
-today = subprocess.check_output(['date', '+%d/%m/%Y']).decode().strip()
+today = date.today().strftime('%d/%m/%Y')
 repo = subprocess.check_output(['git', 'rev-parse', '--show-toplevel']).decode().strip()
 
 try:
