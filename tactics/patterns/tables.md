@@ -20,7 +20,8 @@ For full table guidance, always refer to [Tables and data in Design Basics](../.
 
 Use table patterns that match the complexity of the data and the tasks users need to perform. Start with the simplest pattern that supports the required content and interactions, then add controls or responsive behaviour only where needed.
 
-### IX-TACTIC-TABLE-001 - Standard table
+### Standard table
+<small>IX-TACTIC-TABLE-001</small>
 
 Use a standard table for straightforward datasets that primarily need to be read, scanned or compared.
 
@@ -28,7 +29,8 @@ Keep the structure simple, use clear column headings and avoid adding controls t
 
 [View standard table](../examples/tables/table-standard.png)
 
-### IX-TACTIC-TABLE-002 - Data table
+### Data table
+<small>IX-TACTIC-TABLE-002</small>
 
 Use a data table for larger or more complex datasets that need richer interaction, such as sorting, filtering, pagination, selection or row actions.
 
@@ -36,7 +38,8 @@ Use a standard table when users only need to scan and compare a smaller, simpler
 
 [View data table](../examples/tables/table-data-table.png)
 
-### IX-TACTIC-TABLE-003 - Tables with varying widths
+### Tables with varying widths
+<small>IX-TACTIC-TABLE-003</small>
 
 Choose a table width based on the amount and complexity of the data rather than applying the same width to every table.
 
@@ -47,7 +50,8 @@ Use a wider or full-width table when there are more columns, longer values or in
 [View fixed width table](../examples/tables/table-fixed-width.png)<br>
 [View full width table](../examples/tables/table-full-width.png)
 
-### IX-TACTIC-TABLE-004 - Table with row actions
+### Table with row actions
+<small>IX-TACTIC-TABLE-004</small>
 
 Use row actions when users need to perform actions on individual records, such as viewing, editing or deleting an item.
 
@@ -58,7 +62,8 @@ Avoid using row actions for operations that apply to multiple selected rows.
 [View table with row actions](../examples/tables/table-row-actions.png)<br>
 [View table with row actions overflow](../examples/tables/table-row-actions-overflow.png)
 
-### IX-TACTIC-TABLE-005 - Table with filtering
+### Table with filtering
+<small>IX-TACTIC-TABLE-005</small>
 
 Use filtering when users need to narrow a large or varied dataset to find relevant records.
 
@@ -68,14 +73,16 @@ Avoid adding filtering to small datasets where users can find information easily
 
 [View table with filtering](../examples/tables/table-filtering.png)
 
-### IX-TACTIC-TABLE-006 - Tables with empty states
+### Tables with empty states
+<small>IX-TACTIC-TABLE-006</small>
 
 Tables should show an appropriate empty state when no data is available on initial load or when searching or filtering returns no results.
 
 [View table with initial load empty state](../examples/tables/table-empty-state-initial-load.png)<br>
 [View table with no results empty state](../examples/tables/table-empty-state-no-results.png)
 
-### IX-TACTIC-TABLE-007 - Tables with multi-select
+### Tables with multi-select
+<small>IX-TACTIC-TABLE-007</small>
 
 Use multi-select when users need to perform the same action on several rows at once.
 
@@ -85,7 +92,8 @@ Avoid multi-select where there are no meaningful bulk actions.
 
 [View table with multi-select](../examples/tables/table-multi-select.png)
 
-### IX-TACTIC-TABLE-008 - Responsive tables
+### Responsive tables
+<small>IX-TACTIC-TABLE-008</small>
 
 Adapt tables for smaller screens based on the importance and complexity of the data rather than simply shrinking the desktop layout.
 
